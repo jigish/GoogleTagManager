@@ -24,7 +24,7 @@
   ],
   "source_files": "GoogleTagManager/Library/*.h",
   "preserve_paths": "libGoogleAnalyticsServices.a",
-  "libraries": "GoogleAnalyticsServices",
+  "libraries": ["GoogleAnalyticsServices", "z", "sqlite3.0"],
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC",
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/GoogleTagManager\""

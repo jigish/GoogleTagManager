@@ -17,7 +17,7 @@ LICENSE
   s.frameworks = 'CFNetwork', 'CoreData', 'SystemConfiguration', 'AdSupport'
   s.source_files = 'GoogleTagManager/Library/*.h'
   s.preserve_path = 'libGoogleAnalyticsServices.a'
-  s.library = 'GoogleAnalyticsServices'
+  s.libraries = 'GoogleAnalyticsServices', 'z', 'sqlite3.0'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' , 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleTagManager"'}
   s.requires_arc = false
 end
