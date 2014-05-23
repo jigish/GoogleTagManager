@@ -18,6 +18,6 @@ LICENSE
   s.preserve_paths = 'libGoogleAnalyticsServices.a'
   s.library = 'GoogleAnalyticsServices', 'z', 'sqlite3.0'
   s.framework = 'CFNetwork', 'CoreData', 'SystemConfiguration', 'AdSupport'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' , 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleTagManager"'}
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleTagManager"'}
   s.requires_arc = false
 end
