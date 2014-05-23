@@ -12,7 +12,7 @@ LICENSE
   }
 
   s.author = 'Google Inc.'
-  s.source = { :http => 'http://dl.google.com/googleanalyticsservices/GoogleAnalyticsServicesiOS_3.06.zip', :flatten => true }
+  s.source = { :git => 'https://github.com/jigish/GoogleTagManager' }
   s.platform = :ios
   s.frameworks = 'CFNetwork', 'CoreData', 'SystemConfiguration', 'AdSupport'
   s.source_files = 'GoogleTagManager/Library/*.h'
